@@ -3,9 +3,9 @@ Credit Risk Analysis done using Supervised Machine Learning
 In this project, we use Python to build and evaluate several machine learning models to predict credit risk.
 
 Following steps were used
-# oversample the data using the RandomOverSampler and SMOTE algorithms.
-# Use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
-# Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
+- oversample the data using the RandomOverSampler and SMOTE algorithms.
+- Use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
+- Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and   EasyEnsembleClassifier.
 
 Results:
 Naive Random Oversampling results: 
