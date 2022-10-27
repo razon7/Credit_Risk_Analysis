@@ -8,23 +8,24 @@ Following steps were used
 - Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and   EasyEnsembleClassifier.
 
 Results:
-Naive Random Oversampling results: 
+
+# Naive Random Oversampling results: 
 Our balanced accuracy test it 65%,
 The precision for the high_risk has a very low positivity at 1% and the recall is 72%.
 
-SMOTE oversampling results: 
+# SMOTE oversampling results: 
 The accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall smote.
 
 
-Undersampling results: 
+# Undersampling results: 
 Balanced accuracy score is 66.2% overall, the precision is at 99% and the recall is 40% undersampling.
 
 
-Combination(over and undersampling) results:
+# Combination(over and undersampling) results:
 Balanced accuracy score is 54.4% the precision is 99% and the recall is 57% overall combination.
 
 
 
-Balanced Random Forest Classifier results: 
+# Balanced Random Forest Classifier results: 
 The accuracy score is 78.7% the precision is 99% and the recall is 88% random forest.
 
